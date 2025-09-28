@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝙆𝙚𝙧𝙤𝙇𝙪𝙤𝙣𝙜</title>
+    <link rel="icon" type="image/x-icon" href="avt.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="video.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+    </div>
+
+    <div class="rain-container" id="rain-container"></div>
+
+    <div class="profile-container">
+        <div class="header"></div>
+        
+        <div class="avatar-container">
+            <div class="circle">   
+                <img src="avt.jpg" alt="Avatar" class="avatar" id="avatar-image">
+            </div>  
+        </div>
+        
+        <div class="info">
+            <h1 id="user-name">NGUYỄN QUỐC LƯƠNG</h1>
+            <h2 id="user-nickname">𝙆𝙚𝙧𝙤𝙇𝙪𝙤𝙣𝙜</h2>
+            <p id="user-location">Quê quán: PHÚ THỌ</p>
+            <p id="user-dob">Ngày sinh: 01/04/2004</p>
+            <p id="user-job">Nghề nghiệp: du học NHẬT BẢN</p>
+        </div>
+    </div>
+
+    <div class="social-container">
+        <a href="https://tiktok.com/@nguyenquocluong2k4?_t=ZS-8zqRZhk1Rai&_r=1" target="_blank">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://www.facebook.com/nql.boy" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://discord.com/users/990473004830064660" target="_blank">
+            <i class="fab fa-discord"></i>
+        </a>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="nhac.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="music-player" controls>
+        <source src="nhac.mp3" type="audio/mpeg">
+        Trình duyệt không hỗ trợ phát nhạc.
+    </audio>
+
+     
+     <script src="script.js"></script>
+ 
+  
+    
+</body>
+</html>
